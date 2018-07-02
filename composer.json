@@ -1,8 +1,7 @@
 {
     "name": "kasparsd/basic-unit-example",
-    "minimum-stability": "dev",
     "require-dev": {
-        "phpunit/phpunit": "6"
+        "phpunit/phpunit": "^6"
     },
     "autoload": {
         "psr-4": {
