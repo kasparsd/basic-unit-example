@@ -5,6 +5,8 @@ use PHPUnit\Framework\TestCase;
 
 class AppTest extends TestCase {
 
+	protected $app;
+
 	public function setUp() {
 		parent::setUp();
 
