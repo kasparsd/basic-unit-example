@@ -1,0 +1,16 @@
+{
+    "name": "kasparsd/basic-unit-example",
+    "require-dev": {
+        "phpunit/phpunit": "6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Travis\\": "src"
+        }
+    },
+    "scripts": {
+        "test": [
+            "phpunit tests"
+        ]
+    }
+}
